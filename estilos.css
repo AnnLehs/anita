@@ -1,0 +1,190 @@
+.info-raza {
+    line-height: 20px;
+    text-align: justify;
+    color: #242c39;
+    display: none;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.btn-informacion {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #6ea8fe;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-informacion:hover {
+    background-color: #5a94e2;
+}
+
+
+
+.Principal {
+    border-color: #6ea8fe;
+    border-radius: 5px;
+    color: #f9f9f9;
+    background-color: #6ea8fe;
+    display: block;   
+    width: 200px;            /* Ancho del botón*/
+    margin: 20px auto;
+    padding: 5px 10px;    
+    text-align: center;
+    font-size: 1.2em; 
+
+}
+
+#hide{
+    border-color: #6ea8fe;
+    border-radius: 5px;
+    color: #f9f9f9;
+    background-color: #6ea8fe;
+    display: block;   
+    width: 200px;            /* Ancho del botón*/
+    margin: 20px auto;
+    margin-left: 300px;  /*margen izquierdo*/
+    padding: 5px 10px;    
+    text-align: center;
+    font-size: 1.2em; 
+}
+#show{
+    border-color: #6ea8fe;
+    border-radius: 5px;
+    color: #f9f9f9;
+    background-color: #6ea8fe;
+    display: block;   
+    width: 200px;            /* Ancho del botón*/
+    margin: 20px auto;
+    margin-left: 300px;  /*margen izquierdo*/
+    padding: 5px 10px;    
+    text-align: center;
+    font-size: 1.2em; 
+}
+.aprender {
+    /* Estilo para el botón de 'Aprender Más' */
+    
+    display: block;   
+    width: 200px;            /* Ancho del botón*/
+    margin: 20px auto;
+    margin-left: 300px;  /*margen izquierdo*/
+    padding: 10px 20px;    
+    text-align: center;
+    font-size: 1.2em;        /* Tamaño de la fuente */
+}
+
+/* Ajustes para el carrusel */
+.carousel {
+    max-width: 600px;
+    margin: 0 auto 20px; 
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.galeria {
+    gap: 10px; 
+    justify-content: center; 
+}
+
+.galeria img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo del encabezado */
+header {
+    text-align: center;
+    background-color: #6ea8fe;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+/* Estilos del contenido principal */
+main {
+    padding: 20px;
+}
+
+section {
+    margin: 20px auto; 
+    padding: 20px;
+    max-width: 800px; 
+}
+
+p, ul {
+    text-align: justify; 
+}
+
+/* Estilos para los títulos de las secciones */
+h2 {
+    text-align: center;
+    color: #2e76d4;
+    font-size: 2em;
+    margin-top: 0;
+    
+}
+
+
+li {
+    text-align: center;
+    background-color: #6ea8fe;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+
+/* Estilo de las imágenes */
+img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
